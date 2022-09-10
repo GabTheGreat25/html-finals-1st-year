@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Century Gothic;
+}
+
+h1{
+position: absolute;
+color:#00FF1D;
+text-shadow: 0 7.5px 7.5px #ff005b;
+}
+
+.leftside, .rightside {
+height:100vh;
+width :104%;
+}
+
+.leftside {
+background-image: url("Images/Home.jpg");
+background-size: cover;
+coLor: black;
+}
+
+.rightside {
+background-image: url("Images/Business.jpg");
+background-size: cover;
+coLor: black;
+}
+
+.navbar{
+width:101.99%;
+}
+
+.Last{
+margin-bottom: -10px;
+width: 100%;
+height: 100%;
+position: relative;
+text-align:center;
+background-color:#121111;
+width: 102%; 
+}

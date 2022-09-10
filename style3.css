@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Century Gothic;
+}
+
+.container{
+max-width:1300px !important;
+margin:auto !important;
+background:#f2f2f2;
+overflow:auto;
+}
+
+.gallery{
+margin:17px;
+border:1px solid #ccc;
+float:left;
+width:390px;
+}
+
+.gallery img{
+width:100%;
+height:auto;
+}
+
+.desc{
+padding:15px;
+text-align:center;
+}
+
+body{
+background-image: url("Images/Background.jpg");
+}
+
+.Last{
+margin-bottom: -10px;
+width: 100%;
+height: 100%;
+position: relative;
+text-align:center;
+background-color:#121111 ;
+}
